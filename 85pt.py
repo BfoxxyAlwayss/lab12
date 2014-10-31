@@ -26,11 +26,12 @@ class MyApp:
 		
 	def button1Click(self, event):    ### (3)
 		if self.button1["background"] == "green": ### (4)
-			self.button1["background"] = "yellow"
+			self.button2["background"] = "yellow"
 		else:
-			self.button1["background"] = "green"
+			self.button2["background"] = "green"
+			
 	
-		
+	       
 root = Tk()
 myapp = MyApp(root)
 root.mainloop()
